@@ -8,7 +8,7 @@
 /bridge/zigbee2mqtt-data/log
 /bridge/zigbee2mqtt-data/database.db
 /bridge/zigbee2mqtt-data/state.json
-/bridge/mosquitto-data
+/mosquitto-data
 
 # testing
 /coverage
