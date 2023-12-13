@@ -6,6 +6,7 @@
 .pnp.js
 
 /bridge/zigbee2mqtt-data/log
+/bridge/zigbee2mqtt-data/coordinator_backup.json
 /bridge/zigbee2mqtt-data/database.db
 /bridge/zigbee2mqtt-data/state.json
 /mosquitto-data
