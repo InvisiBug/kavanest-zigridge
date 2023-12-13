@@ -1,14 +1,14 @@
 version: "3.8"
 services:
-  mqtt:
-    image: eclipse-mosquitto:2.0
-    restart: unless-stopped
-    volumes:
-      - "./mosquitto-data:/mosquitto"
-    ports:
-      - "1883:1883"
-      - "9001:9001"
-    command: "mosquitto -c /mosquitto-no-auth.conf"
+  # mqtt:
+  #   image: eclipse-mosquitto:2.0
+  #   restart: unless-stopped
+  #   volumes:
+  #     - "./mosquitto-data:/mosquitto"
+  #   ports:
+  #     - "1883:1883"
+  #     - "9001:9001"
+  #   command: "mosquitto -c /mosquitto-no-auth.conf"
 
   zigbee2mqtt:
     container_name: zigbee2mqtt
@@ -22,4 +22,4 @@ services:
     environment:
       - TZ=Europe/Berlin
     devices:
-      - /dev/tty.usbserial-14430:/dev/tty.usbserial-14430
+      - /dev/serial/by-id/usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_4a826263ff9ced119d16d8a5a7669f5d-if00-port0:/dev/ttyUSB0

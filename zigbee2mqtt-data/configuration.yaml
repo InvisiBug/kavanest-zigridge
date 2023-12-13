@@ -2,9 +2,9 @@ homeassistant: false
 frontend: true
 mqtt:
   base_topic: zigbee2mqtt
-  server: mqtt://localhost
+  server: mqtt://kavanet.io
 serial:
-  port: /dev/ttyACM0
+  port: /dev/ttyUSB0
 advanced:
   network_key:
     - 181
@@ -33,3 +33,11 @@ advanced:
     - 213
     - 15
     - 136
+  homeassistant_legacy_entity_attributes: false
+  legacy_api: false
+  legacy_availability_payload: false
+device_options:
+  legacy: false
+devices:
+  '0x00124b002a5711a2':
+    friendly_name: mySwitch
