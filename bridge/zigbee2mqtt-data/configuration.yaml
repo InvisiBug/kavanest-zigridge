@@ -63,7 +63,7 @@ devices:
     friendly_name: trainingRoomMotion
   '0x00124b002a6570b8':
     friendly_name: studySensor
-  '0x00124b002a657a8b':
-    friendly_name: bedRoomSensor
   '0x00124b002932ef87':
     friendly_name: studyMotion
+  '0x00124b002a657a8b':
+    friendly_name: bedRoomSensor
