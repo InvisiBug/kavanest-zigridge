@@ -39,5 +39,31 @@ advanced:
 device_options:
   legacy: false
 devices:
+  '0xa4c138e65f0b9c66':
+    friendly_name: livingRoomPlug
+  '0xa4c138161d8fea70':
+    friendly_name: livingRoomLamp
+  '0xa4c13888b7a39eef':
+    friendly_name: trainingRoomPlug
+  '0xa4c1383a4d2be600':
+    friendly_name: kitchenStrip
+  '0x00124b002a657399':
+    friendly_name: trainingRoomSensor
   '0x00124b002a5711a2':
-    friendly_name: mySwitch
+    friendly_name: livingRoomButton
+  '0xa4c138f82857c541':
+    friendly_name: eggChair
+  '0x00124b00292f5df6':
+    friendly_name: studyButton
+  '0x00124b002a65a414':
+    friendly_name: printerRoomSensor
+  '0x00124b002a6555fa':
+    friendly_name: livingRoomSensor
+  '0x00124b0029334712':
+    friendly_name: trainingRoomMotion
+  '0x00124b002a6570b8':
+    friendly_name: studySensor
+  '0x00124b002a657a8b':
+    friendly_name: bedRoomSensor
+  '0x00124b002932ef87':
+    friendly_name: studyMotion
