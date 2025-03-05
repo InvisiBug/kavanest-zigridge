@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/InvisiBug/kavanest-zigridge.git",
   "author": "InvisiBug <matthewjkavanagh@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "up": "docker compose up --build -d",
+    "down": "docker compose down"
+  }
 }
